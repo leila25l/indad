@@ -1,0 +1,136 @@
+#top #mainTopWrapper {
+    background: 0;
+    padding: 0;
+}
+#mainTopNavigation {
+	display:none;
+}
+body ul, #hero .carouselWrapper .tabArticleText ul{
+	padding:0;
+}
+.footer-menu--support .footer-menu--support-title {
+    font-weight: 800 !important;
+    color: #fff !important;
+}
+/*.header.clearfix{
+	margin-right: -35px;
+    margin-left: -45px;
+}*/
+.icon-list:before{
+	content:"" !important;
+}
+.header-brand-button-group .button--back{
+	background: none;
+}
+input {
+	box-sizing: content-box;
+}
+/* branch locator */
+.searchForm input.button{
+	margin:0 5px 0 10px !important;
+	width: auto !important;
+}
+/* DCO LP */
+#DCO-banner, #mainBanner {
+	left: -45px !important;
+}
+.offre160{
+	width:350px !important;
+}
+#part1, #part2, #part3, #part4 {
+    left: -45px !important;
+}
+.modaleBtnOui, .modaleBtnNon {
+	width: 205px !important;
+}
+.modale-content{
+	width:auto !important;
+}
+/* pr�t immo */
+.btnSec:link, .btnSec:visited, .btnPrim:link, .btnPrim:visited{
+	height: auto !important;
+}
+.section .smallBox{
+	height: 142px !important;
+    width: 297px !important;
+}
+a.button.button--back{
+	background: 0 !important;
+}
+.button--light, .simulateur .button--light {
+	color: #333333 !important;
+}
+.footer-support i.icon.icon-chevron-right {
+    color: #fff !important;
+}
+/* solutions �pargner investir */
+.grid--flex .grid.grid_12 {
+    width: 490px !important;
+}
+@media screen and (min-width: 760px){
+	.top-infos, .hero-header, .infos-bloc, .section.bg-gray {
+	    margin-right: -35px !important;
+	    margin-left: -45px !important;
+	}
+}
+@media (max-width: 768px) {
+	/* global */
+	body h1 {
+		padding: 12px;
+	}
+	/* web conference */
+	.grid_24 .contentItem .buttons {
+	    width: auto !important;
+	}
+	/* protection / pr�voyance */
+	.btn-group a.redBtn {
+		margin: 20px 0 !important;
+		font-size:100% !important;
+	}
+	.top-banner .top-banner-content {
+		max-width: 340px !important;
+	}
+	/* pr�t immo */
+	#mainBanner {
+		left: 0 !important;
+		top: 0 !important;
+	}
+	.section .smallBox{
+		width: auto !important;
+    	height: auto !important;
+	}
+	.hero-header {
+    	height: 280px !important;
+    	min-width: 610px !important;
+	}
+	.floatingBanner {
+		width: 250px !important;
+		height: 240px !important;
+	}
+	.floatingBanner h1 {
+    	padding: 0 !important;
+	}
+	.infos-bloc.bg-darkblue {
+    	width: 90% !important;
+	}
+	.floatingBanner-right{
+		width: 240px !important;
+	}
+}
+@media (max-width: 900px) and (min-width: 761px) {
+	.hero-header {
+	    height: 280px !important;
+	}
+	.floatingBanner{
+		width: 260px !important;
+		height: 230px !important;
+	}
+	.floatingBanner-right{
+		width: 220px !important;
+		top: -210px !important;
+	}
+}
+
+div.InformationMessageClass{
+  background-color:#f0f0f0;
+}
